@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/elementTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/FireBrick"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:text="@string/titleList" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/elementNameStatic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:textColor="@color/Black"
+            android:text="@string/peopleName"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:paddingTop="15dp"
+            android:textSize="18sp"
+            android:id="@+id/elementName"/>
+
+        <TextView
+            android:id="@+id/elementHeightStatic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:textColor="@color/Black"
+            android:text="@string/peopleHeight"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:textSize="18sp"
+            android:id="@+id/elementHeight"/>
+
+        <TextView
+            android:id="@+id/elementMassStatic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:textColor="@color/Black"
+            android:text="@string/peopleMass"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:id="@+id/elementMass"/>
+
+        <TextView
+            android:id="@+id/elementHairColorStatic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:textColor="@color/Black"
+            android:text="@string/peopleHairColor"
+            android:textSize="20sp"
+           />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:id="@+id/elementHairColor"/>
+
+        <TextView
+            android:id="@+id/elementSkinColorStatic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:textColor="@color/Black"
+            android:text="@string/peopleSkinColor"
+            android:textSize="20sp"
+             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:id="@+id/elementSkinColor"/>
+
+        <TextView
+            android:id="@+id/elementEyeColorStatic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:textColor="@color/Black"
+            android:text="@string/peopleEyeColor"
+            android:textSize="20sp"
+           />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:id="@+id/elementEyeColor"/>
+
+        <TextView
+            android:id="@+id/elementBirthYearStatic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:textColor="@color/Black"
+            android:text="@string/peopleBirthYear"
+            android:textSize="20sp"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:id="@+id/elementBirthYear"/>
+
+        <TextView
+            android:id="@+id/elementGenderStatic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:textColor="@color/Black"
+            android:text="@string/peopleGender"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:id="@+id/elementGender"/>
+
+    </LinearLayout>
+</LinearLayout>

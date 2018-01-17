@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Starwars</string>
+    <string name="welcomeMessage">Welcome to the Star Wars app</string>
+    <string name="accessButtonText">Click here to enter</string>
+    <string name="titleText">Discover the Star Wars Characters </string>
+    <string name="titleList">Character\'\s details</string>
+    <string name="peopleName">Character\'\s Name </string>
+    <string name="peopleHeight">Height </string>
+    <string name="peopleMass">Mass </string>
+    <string name="peopleHairColor">Hair Color </string>
+    <string name="peopleSkinColor">Skin Color </string>
+    <string name="peopleEyeColor">Eye Color </string>
+    <string name="peopleBirthYear">Birth Year </string>
+    <string name="peopleGender">Gender </string>
+    <string name="status_error">An error occured reading the data</string>
+    <string name="unknown_error">Unknown error !</string>
+</resources>
